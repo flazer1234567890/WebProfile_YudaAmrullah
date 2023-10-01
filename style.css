@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+}
+header
+{   
+    position:fixed ; 
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.342);
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+    padding: 10px 3%;
+}
+.logo
+{
+    font-family: poppins; /*jenis font yang digunakan*/
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    color: #f6f4e7 ;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li a
+{
+    font-size: 25px;
+    color: #f6f4e7;
+    font-family: poppins;
+    font-weight: 600px;
+    margin-left: 35px;
+
+}nav ul li a:hover
+{
+    background-color:#FDDB3B ;
+    border-radius: 5px;
+}
+/*home*/
+.Home
+{
+    background-image: url(assets/dorin-seremet-6VVKrMzK_50-unsplash.jpg);
+    padding: 130px 110px;
+}
+.Home p
+{
+
+    
+    line-height: 0px;
+}
+.Home p:nth-child(1)
+{
+    font-family: poppins;
+    font-size: 20px;
+    color: white;
+}
+.Home p:nth-child(2)
+{
+    font-family: oswald;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+.Home p:nth-child(3)
+{
+    font-family: oswald;
+    font-size: 20px;
+    color: white;
+}
+.Home p:nth-child(4)
+{
+    font-family: poppins;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    width: 600px;
+    line-height: 20px;
+}
+.Home p:nth-child(5)
+{
+    font-family: oswald;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    width: 600px;
+    line-height: 20px;
+}
+
+/*img*/
+.img
+{
+
+}
